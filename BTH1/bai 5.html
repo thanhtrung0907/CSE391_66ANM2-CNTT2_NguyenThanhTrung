@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #cdcfd2;
+        margin: 20px;
+    }
+    h2{
+        margin-bottom: 15px;
+    }
+
+    .add-btn {
+        float: right;
+        padding: 8px 14px;
+        background: #2c0df6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #e9ecef; /* VIỀN NGANG */
+    }
+
+    th {
+        background: #f8f9fa;
+        font-weight: bold;
+    }
+
+    tr:hover {
+        background: #f8f9fa;
+    }
+    .edit-btn {
+        background: #ffc107;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .delete-btn {
+        background: #dc3545;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+</style>
+<body>
+
+<h2>Employee 
+    <button class="add-btn">+ Add</button>
+</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Position</th>
+        <th>Action</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Fatima Beatriz</td>
+        <td>FatimaBeatriz@gmail.com</td>
+        <td>0985674321</td>
+        <td>Staff</td>
+        <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Gabriel Hanna</td>
+        <td>GabrielHanna@gmail.com</td>
+        <td>0353674231</td>
+        <td>Staff</td>
+        <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Charles Diya</td>
+        <td>CharlesDiya@gmail.com</td>
+        <td>0347658833</td>
+        <td>Staff</td>
+        <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Frank Lamdo</td>
+        <td>FrankLamdo@gmail.com</td>
+        <td>0975444768</td>
+        <td>Manager</td>
+        <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>Louis Tom</td>
+        <td>LouisTom@gmail.com</td>
+        <td>0789568223</td>
+        <td>Staff</td>
+        <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
