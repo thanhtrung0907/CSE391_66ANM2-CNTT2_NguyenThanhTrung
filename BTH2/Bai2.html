@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #eef2f3;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #2a003f;
+            color: #fff;
+        }
+
+        .logo {
+            font-weight: bold;
+            color: orange;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            height: 400px;
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .overlay h1 {
+            font-size: 20px;
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-bottom: 20px;
+        }
+
+        .overlay p {
+            font-size: 10px;
+        }
+
+        .overlay button {
+            margin-top: 10px;
+            padding: 5px 20px;
+            background: yellow;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .highlights {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .highlights h2 {
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            width: 250px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card p {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #2a003f;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .social span {
+            margin: 0 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="logo">TRAVEL GOALS</div>
+            <nav>
+                <a href="#">Destinations</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="overlay">
+                <h1>JOE'S TRAVEL PAGE</h1>
+                <p>LET'S EXPLORE THE WORLD TOGETHER</p>
+                <button>Discover places</button>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <h2>HIGHLIGHTS</h2>
+            <div class="cards">
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
+                    <p>MIAMI USA</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df" alt="">
+                    <p>MUNICH GERMANY</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
+                    <p>BARCELONA SPAIN</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <span>📷</span>
+            <span>👍</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
